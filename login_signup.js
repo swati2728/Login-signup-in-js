@@ -54,7 +54,6 @@ if (user == "1") {
     var mydata = JSON.parse((data));
     if (user_name === mydata["user_name"] && user_password === mydata["password1"]) {
         console.log("congrats", user_name, "you have login succesfully")
-        var users = mydata["user"]
     } else {
       console.log("Invaild Username And Password..try again")
     }
